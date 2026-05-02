@@ -2,7 +2,7 @@
 
 A Telegram bot for managing attack requests with admin approval system, MongoDB database, and external API integration.
 
-## Features Lamor Gaming 
+## Features Lamor Gaming BOT
 
 - 🔐 User approval system with expiration dates
 - 👑 Admin commands for user management
