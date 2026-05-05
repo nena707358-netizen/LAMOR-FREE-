@@ -1,4 +1,4 @@
-import asyncio
+osimport asyncio
 import logging
 import subprocess
 from datetime import datetime, timedelta, timezone
@@ -31,12 +31,12 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-MONGODB_URI = os.getenv("MONGODB_URI")
-DATABASE_NAME = os.getenv("DATABASE_NAME", "attack_bot")
-API_URL = os.getenv("API_URL")
-API_KEY = os.getenv("API_KEY")
-ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "1793697840").split(",")]
+BOT_TOKEN = "8575268232:AAGMCI4-kYDS8JzPNJ1MY0RCyYFlOU5zBWk"
+MONGODB_URI = "mongodb+srv://thakorbgmi12_db_user:qx21sg6gDWRqGnMw@cluster0.getqxcf.mongodb.net/?appName=Cluster0"
+DATABASE_NAME = "akku1733"
+API_URL = "https://vehicular-perpetual-profile.ngrok-free.dev/attack"
+API_KEY = "akku_pc"
+ADMIN_IDS = [5399774279]
 
 # Blocked ports (must match backend)
 BLOCKED_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001}
