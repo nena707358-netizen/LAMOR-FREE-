@@ -280,10 +280,15 @@ def admin_required(func):
 
 # Check if user is approved
 async def is_user_approved(user_id: int) -> bool:
+    
+    if user_id in ADMIN_IDS:
+        return True
+
     user = db.get_user(user_id)
+
     if not user:
         return False
-    
+
     if not user.get("approved", False):
         return False
     
