@@ -31,12 +31,12 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-MONGODB_URI = os.getenv("MONGODB_URI")
-DATABASE_NAME = os.getenv("DATABASE_NAME", "attack_bot")
-API_URL = os.getenv("API_URL")
-API_KEY = os.getenv("API_KEY")
-ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "1793697840").split(",")]
+BOT_TOKEN = os.getenv("8746816423:AAFXc2IY2vgjHJ6S2ehTO9EiMzJ42FYaW-Q")
+MONGODB_URI = os.getenv("mongodb+srv://elepupdebbarma_db_user:EUC8YLZ8RUsJwd58@cluster0.lj4nfyt.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = os.getenv("@Election8o0", "attack_bot")
+API_URL = os.getenv("https://cloud.mongodb.com/v2/6a055de48f58b333f813d64f#/aiModels/modelAPIKeys")
+API_KEY = os.getenv("al-Nv-TCiHQId4MMqUXpCdEsoiDctfCLWHkIsxbwtW0EXP")
+ADMIN_IDS = [int(id.strip()) for id in os.getenv("8667388751", "1793697840").split(",")]
 
 # Blocked ports (must match backend)
 BLOCKED_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001}
